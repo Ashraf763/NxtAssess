@@ -1,0 +1,90 @@
+.home-container {
+  width: 100vw;
+  height: 90%;
+  /* padding: 50px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+  }
+}
+
+.instructions-container {
+  top: 273px;
+  left: 96px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  color: #496387;
+  font-family: Roboto;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 767px) {
+    order: 2;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.ordered-instrucions {
+  padding-left: 0;
+  margin-left: 15px;
+}
+
+.instructions {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37.5px;
+  margin-bottom: 0;
+}
+
+.instruction {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+span {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.13px;
+}
+
+.assessment-image {
+  width: 568px;
+  height: 427px;
+  top: 343px;
+  left: 776px;
+
+  @media (max-width: 767px) {
+    width: 310.83px;
+    height: 234px;
+    top: 81px;
+    left: 25px;
+    display: flex;
+    order: 1;
+  }
+}
+
+.start-btn {
+  width: 160px;
+  height: 40px;
+  top: 747px;
+  left: 144px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px;
+  background-color: #164687;
+  color: white;
+  margin-top: 10px;
+  border: 0;
+}
