@@ -1,0 +1,52 @@
+.select-options {
+  line-height: 5;
+  padding: 6px;
+
+  @media (max-width: 767px) {
+    /* width: 100%; */
+    margin-bottom: 150px;
+    margin-left: 6px;
+    boder: 2px solid black;
+  }
+}
+
+.select-option {
+  padding: 6px;
+}
+
+.active-single-option {
+  color: #0967d2;
+  background: #ecf1ff;
+}
+
+.message-container {
+  background: #fef3c7;
+  color: #d97706;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 3px 15px;
+  border-radius: 6px;
+
+  @media (min-width: 768px) {
+    align-self: center;
+  }
+
+  @media (max-width: 767px) {
+    max-width: 100%;
+  }
+}
+
+.message {
+  margin-left: 5px;
+}
+
+.single-select-a {
+  @media (min-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+  }
+}
